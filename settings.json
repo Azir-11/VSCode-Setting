@@ -3,7 +3,12 @@
   "editor.cursorSmoothCaretAnimation": "on", // 启用光标平滑动画效果
   "editor.fontFamily": "Input Mono, monospace", // 主字体设置（优先使用Input Mono字体）
   "editor.guides.bracketPairs": "active", // 只在活动括号时显示配对引导线
-  // "editor.lineNumbers": "relative", // 显示相对于光标位置的相对行号
+  // 控制行号的显示。
+  //  - off: 不显示行号。
+  //  - on: 将行号显示为绝对行数。
+  //  - relative: 将行号显示为与光标相隔的行数。
+  //  - interval: 每 10 行显示一次行号。
+  "editor.lineNumbers": "interval",
   "editor.renderWhitespace": "selection", // 仅在选中文本时显示空白字符
   "window.autoDetectColorScheme": true, // 自动跟随系统深色/浅色模式
   "workbench.colorTheme": "Eva Dark", // 使用Eva Dark颜色主题
